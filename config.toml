@@ -21,6 +21,7 @@ disqusShortname = "yourdiscussshortname"
     info = "Computer Science Sudent at Allegheny College"
     avatarurl = "images/avatar.png"
     #gravatar = "john.doe@example.com"
+    # TODO: keep or remove?
     footercontent = "Enter a text here."
 
     dateformat = "January 2, 2006"
@@ -86,10 +87,11 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/noorbuchi"
+# TODO: add needed links
 [[params.social]]
-    name = "Gitlab"
-    icon = "fa fa-gitlab"
+    name = "Instagram"
+    icon = "fa fa-instagram"
     weight = 2
     url = "https://gitlab.com/johndoe/"
 [[params.social]]
@@ -144,13 +146,14 @@ disqusShortname = "yourdiscussshortname"
 
 
     [languages.pt-br]
-        languagename = "Português"
-        title = "João Ninguém"
+        languagename = "العربية"
+        title = "نور بوشي"
 
         [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
+            author = "نور بوشي"
+            info = "طالب بعلوم الكمبيوتر في جامعة اليغيني"
+            # TODO: Add more info for description
+            description = ""
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = "Coloque algum texto aqui."
 
