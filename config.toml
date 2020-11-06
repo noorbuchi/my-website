@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "https://noorbuchi.netlify.app/"
 title = "Noor Buchi"
 
 theme = "hugo-coder"
@@ -12,7 +12,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = ""
 
 [params]
     author = "Noor Buchi"
