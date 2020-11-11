@@ -16,11 +16,12 @@ disqusShortname = ""
 
 [params]
     author = "Noor Buchi"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
+    description = "Noor Buchi's personal website"
+    keywords = "software engineering, cloud computing, developer,personal"
     info = "Computer Science Sudent at Allegheny College"
     avatarurl = "images/avatar.png"
     #gravatar = "john.doe@example.com"
+    favicon_32 = "images/icon.png"
     # TODO: keep or remove?
     footercontent = "Enter a text here."
 
@@ -59,7 +60,8 @@ disqusShortname = ""
     customSCSS = []
 
     # Custom JS
-    customJS = []
+    # TODO: keep or remove?
+    customJS = ["js/typing.js"]
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 [params.fathomAnalytics]
@@ -87,13 +89,13 @@ disqusShortname = ""
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/noorbuchi"
+    url = "https://github.com/noorbuchi/"
 # TODO: add needed links
 [[params.social]]
     name = "Instagram"
     icon = "fa fa-instagram"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://www.instagram.com/noor_buchi/"
 [[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
@@ -103,19 +105,7 @@ disqusShortname = ""
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
-[[params.social]]
-    name = "Medium"
-    icon = "fa fa-medium"
-    weight = 5
-    url = "https://medium.com/@johndoe"
-[[params.social]]
-    name = "RSS"
-    icon = "fa fa-rss"
-    weight = 6
-    url = "https://myhugosite.com/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+    url = "https://linkedin.com/in/noorbuchi/"
 
 
 [languages]
@@ -130,26 +120,26 @@ disqusShortname = ""
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.en.menu.main]]
             name = "Projects"
-            weight = 3
+            weight = 2
             url = "projects/"
 
             [[languages.en.menu.main]]
-            name = "Contact me"
+            name = "Skills"
+            weight = 3
+            url = "skills/"
+
+            [[languages.en.menu.main]]
+            name = "Experience"
             weight = 5
-            url = "contact/"
+            url = "experience/"
 
 
-    [languages.pt-br]
+    [languages.ar]
         languagename = "العربية"
         title = "نور بوشي"
 
-        [languages.pt-br.params]
+        [languages.ar.params]
             author = "نور بوشي"
             info = "طالب بعلوم الكمبيوتر في جامعة اليغيني"
             # TODO: Add more info for description
@@ -157,24 +147,24 @@ disqusShortname = ""
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = "Coloque algum texto aqui."
 
-        [languages.pt-br.menu]
+        [languages.ar.menu]
 
-            [[languages.pt-br.menu.main]]
+            [[languages.ar.menu.main]]
             name = "Sobre"
             weight = 1
             url = "about/"
 
-            [[languages.pt-br.menu.main]]
+            [[languages.ar.menu.main]]
             name = "Blog"
             weight = 2
             url = "posts/"
 
-            [[languages.pt-br.menu.main]]
+            [[languages.ar.menu.main]]
             name = "Projetos"
             weight = 3
             url = "projects/"
 
-            [[languages.pt-br.menu.main]]
+            [[languages.ar.menu.main]]
             name = "Contato"
             weight = 5
             url = "contact/"
